@@ -56,7 +56,7 @@ local args = {
 }
 game:GetService("ReplicatedStorage").Systems.Drops.Pickup:FireServer(unpack(args))
 end
-task.wait(2)--just to make sure everything is collected
+task.wait(5)--just to make sure everything is collected
 warn("finished boss")
 queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/0Void2391/test/refs/heads/main/lobby.lua'))()")
 game:GetService("ReplicatedStorage").Systems.DungeonRaids.ExitDungeon:FireServer()--teleport on finish
